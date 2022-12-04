@@ -4,6 +4,10 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Day1.fs" />
+    <Compile Include="Day2/Day2.fs" />
+    <Compile Include="Day1/Day1.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
   </ItemGroup>
 </Project>
