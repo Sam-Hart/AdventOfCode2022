@@ -25,4 +25,4 @@ type Day3Tests() =
     [<Test>]
     member public _.Part2ChallengeInput() =
         let input = (File.ReadAllText @"Data/Day3/ChallengeInput.txt").Trim()
-        Assert.AreEqual(70, Part2.Solve input)
+        Assert.AreEqual(2425, Part2.Solve input)
