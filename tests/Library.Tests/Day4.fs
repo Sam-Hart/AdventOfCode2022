@@ -1,6 +1,5 @@
 namespace Library.Tests.Day4
 
-open System
 open System.IO
 open NUnit.Framework
 open Library.Day4
